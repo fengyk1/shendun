@@ -8,11 +8,12 @@
 
 ```js
 //先从vuex里面引入mapMutations
-//然后在methods里面注入方法
-
 import {
     mapMutations
 } from 'vuex'
+//然后在methods里面注入方法
+
+...mapMutations(['removeTabItem'])
 ```
 
 ```js
