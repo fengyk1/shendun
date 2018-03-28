@@ -12,7 +12,6 @@ import {
     mapMutations
 } from 'vuex'
 //然后在methods里面注入方法
-
 ...mapMutations(['removeTabItem'])
 ```
 
