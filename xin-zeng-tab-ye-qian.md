@@ -4,5 +4,11 @@
 
 ### 使用案例
 
+```
+import {
+    mapMutations
+} from 'vuex'
+```
+
 
 
