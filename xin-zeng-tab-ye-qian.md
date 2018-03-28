@@ -8,6 +8,9 @@
 import {
     mapMutations
 } from 'vuex'
+
+//
+this.changeSubMenu(obj);
 ```
 
 
