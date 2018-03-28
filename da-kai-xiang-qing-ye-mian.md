@@ -8,6 +8,15 @@
 import {
     mapMutations
 } from 'vuex'
+//
+this.openSubPage({
+    name: '新增活动',
+    router: this.$router,
+    projectId: 'huodong_xinzeng', 
+    url: '/main/niiwoo/operation/activitySettings', 
+    params: {type:'add'}
+});
+
 ```
 
 
