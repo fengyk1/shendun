@@ -4,12 +4,12 @@
 
 ### 使用案例
 
-```
+```js
 import {
     mapMutations
 } from 'vuex'
 
-//该方法没有在mutations
+//该方法没有在mutations里面做跳转处理，如果要使用还请在
 this.changeSubMenu(obj);
 ```
 
