@@ -6,7 +6,8 @@
 
 ### 使用案例
 
-```
+```js
+
 import {
     mapMutations
 } from 'vuex'
