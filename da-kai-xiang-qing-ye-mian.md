@@ -6,8 +6,8 @@
 
 ```
 import {
-        mapMutations
-    } from 'vuex'
+    mapMutations
+} from 'vuex'
 ```
 
 
