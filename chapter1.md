@@ -1,4 +1,4 @@
-* 获取菜单数据
+### 级联菜单
 
 ```js
 [GetMenu]({ commit, state }, callBack) {
