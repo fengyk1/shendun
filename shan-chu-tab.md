@@ -2,19 +2,22 @@
 
 * 点击tab上面的x按钮会关闭当前tab页
 
-方法主要是在tabViewList里面使用，删除当前tab会打开另外一个tab页面
+菜单数据都是存放在state里面、神盾系统所有涉及到菜单增删改查的操作都放在store文件夹里面
+
+
+
+
 
 ### 使用案例
 
 ```js
-//菜单数据都是存放在state里面、神盾系统所有涉及到菜单增删改查的操作都放在store文件夹里面
+//
 //先从vuex里面引入mapMutations
 import {
     mapMutations
 } from 'vuex'
 //然后在methods里面注入方法
 ...mapMutations(['removeTabItem'])
-
 ```
 
 ```js
