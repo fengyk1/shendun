@@ -9,7 +9,7 @@ import {
     mapMutations
 } from 'vuex'
 
-//该方法没有在mutations里面做跳转处理，如果要使用还请在
+//该方法没有在mutations里面做跳转处理，如果要使用还请在各自的页面中做处理，目前该方法没有在其他页面中使用
 this.changeSubMenu(obj);
 ```
 
