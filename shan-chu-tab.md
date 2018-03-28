@@ -8,6 +8,7 @@
 
 ```js
 //先从vuex里面引入mapMutations
+
 import {
     mapMutations
 } from 'vuex'
