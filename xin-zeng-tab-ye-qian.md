@@ -9,7 +9,7 @@ import {
     mapMutations
 } from 'vuex'
 
-//
+//该方法没有在mutations
 this.changeSubMenu(obj);
 ```
 
