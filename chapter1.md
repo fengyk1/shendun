@@ -1,6 +1,6 @@
 * 获取菜单数据
 
-```
+```js
 [GetMenu]({ commit, state }, callBack) {
         if (!state.fetchMenu.isFetched) {
             http.post('shield-manage/users/queryMenuTree', {}).then(res => {
@@ -24,8 +24,6 @@
         }
     }
 ```
-
-
 
 
 
