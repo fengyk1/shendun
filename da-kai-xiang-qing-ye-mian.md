@@ -8,7 +8,8 @@
 import {
     mapMutations
 } from 'vuex'
-//
+
+//name:
 this.openSubPage({
     name: '新增活动',
     router: this.$router,
@@ -16,7 +17,6 @@ this.openSubPage({
     url: '/main/niiwoo/operation/activitySettings', 
     params: {type:'add'}
 });
-
 ```
 
 
