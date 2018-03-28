@@ -17,11 +17,10 @@ import {
 
 ...mapMutations(['removeTabItem'])
 //调用
+//removeTabItem方法接收两个参数
 
 this.removeTabItem({data:item,router:this.$router});
 ```
-
-
 
 
 
