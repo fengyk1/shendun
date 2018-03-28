@@ -8,13 +8,13 @@
 
 ```
 watch :{
-            '$route' () {
-                this.changeRouter({
-                    path:this.$route.path,
-                    params:this.$route.query
-                });
-            }
-        }
+    '$route' () {
+        this.changeRouter({
+            path:this.$route.path,
+            params:this.$route.query
+        });
+    }
+}
 ```
 
 
