@@ -13,6 +13,7 @@ import {
 //router:vue的路由对象
 //projectId:每个打开的页面都有一个id，删除等其他操作都需要根据id来判断
 //url:路由里面配置的url
+//
 this.openSubPage({
     name: '新增活动',
     router: this.$router,
