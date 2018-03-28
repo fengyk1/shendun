@@ -1,6 +1,4 @@
-* 从tab页切换会选中相应的菜单
-
-菜单数据是从接口获取的，代码在store下面的action里面
+* 获取菜单数据
 
 ```
 [GetMenu]({ commit, state }, callBack) {
@@ -26,6 +24,8 @@
         }
     }
 ```
+
+
 
 
 
