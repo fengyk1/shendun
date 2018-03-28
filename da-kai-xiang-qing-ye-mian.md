@@ -9,14 +9,13 @@ import {
     mapMutations
 } from 'vuex'
 
-/*打开详情页面参数
-name:页签的名字
-router:vue的路由对象
-projectId:每个打开的页面都有一个id，删除等其他操作都需要根据id来判断
-url:路由里面配置的url
-params:需要带过去的参数
+//打开详情页面参数
 
-*/
+//name:页签的名字
+//router:vue的路由对象
+//projectId:每个打开的页面都有一个id，删除等其他操作都需要根据id来判断
+//url:路由里面配置的url
+//params:需要带过去的参数
 this.openSubPage({
     name: '新增活动',
     router: this.$router,
