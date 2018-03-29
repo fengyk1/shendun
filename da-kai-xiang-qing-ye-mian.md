@@ -15,7 +15,7 @@ import {
 //url:路由里面配置的url
 //params:需要带过去的参数
 
-//如果要跳转到列表页面的话在参数里面加一个isOpenPage为true就会跳转到相应的页面
+//如果要跳转到列表页面的话在参数里面加isOpenPage为true就会跳转到相应的页面
 this.openSubPage({
     name: '新增活动',
     router: this.$router,
