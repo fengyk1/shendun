@@ -8,6 +8,11 @@
     <router-view v-if="isRouteKey"></router-view>
     <router-view :key="key" v-else></router-view>
 </keep-alive>
+
+//key的实现
+key(){
+    return this.$route.fullPath;
+}
 ```
 
 
