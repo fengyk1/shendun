@@ -4,5 +4,13 @@
 
 
 
+```
+
+<keep-alive :include="list.join(',')">
+    <router-view v-if="isRouteKey"></router-view>
+    <router-view :key="key" v-else></router-view>
+</keep-alive>
+```
+
 
 
