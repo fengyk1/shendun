@@ -16,7 +16,7 @@ import {
 //params:需要带过去的参数
 
 //如果要跳转到列表页面的话在参数里面加isOpenPage为true就会跳转到相应的页面
-//
+//要新建一个标签页不跳转到该页面，在参数里面加一个isLocation为true
 this.openSubPage({
     name: '新增活动',
     router: this.$router,
